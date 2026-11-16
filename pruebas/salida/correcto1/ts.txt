@@ -1,0 +1,22 @@
+TABLA PRINCIPAL #1:
+* LEXEMA : 'contador'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'precio'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 2
+  --------------------
+* LEXEMA : 'nombre'
+  ATRIBUTOS :
+  + tipo : 'cadena'
+  + despl : 6
+  --------------------
+* LEXEMA : 'activo'
+  ATRIBUTOS :
+  + tipo : 'logico'
+  + despl : 70
+  --------------------
+

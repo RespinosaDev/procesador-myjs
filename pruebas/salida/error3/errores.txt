@@ -1,0 +1,1 @@
+Error sintáctico (línea 3): Se encontró '{' donde se esperaba otro parámetro o el cierre ')' (se admite: ')', ',')

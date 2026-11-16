@@ -1,0 +1,69 @@
+TABLA DE LA FUNCION suma #2:
+* LEXEMA : 'a'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'b'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 2
+  --------------------
+* LEXEMA : 'resultado'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 4
+  --------------------
+
+TABLA DE LA FUNCION media #3:
+* LEXEMA : 'x'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 0
+  --------------------
+* LEXEMA : 'y'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 4
+  --------------------
+
+TABLA DE LA FUNCION saludar #4:
+* LEXEMA : 'quien'
+  ATRIBUTOS :
+  + tipo : 'cadena'
+  + despl : 0
+  --------------------
+
+TABLA PRINCIPAL #1:
+* LEXEMA : 'suma'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 2
+  + TipoParam01 : 'entero'
+  + TipoParam02 : 'entero'
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'Etsuma01'
+  --------------------
+* LEXEMA : 'media'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 2
+  + TipoParam01 : 'real'
+  + TipoParam02 : 'real'
+  + TipoRetorno : 'real'
+  + EtiqFuncion : 'Etmedia02'
+  --------------------
+* LEXEMA : 'saludar'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam01 : 'cadena'
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etsaludar03'
+  --------------------
+* LEXEMA : 'total'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+

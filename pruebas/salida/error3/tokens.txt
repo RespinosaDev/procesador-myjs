@@ -1,0 +1,14 @@
+<FUNCTION,>
+<INT,>
+<ID,0>
+<PARIZQ,>
+<INT,>
+<ID,0>
+<LLAVEIZQ,>
+<RETURN,>
+<ID,0>
+<MAS,>
+<ID,0>
+<PUNTOYCOMA,>
+<LLAVEDER,>
+<EOF,>

@@ -1,0 +1,17 @@
+TABLA PRINCIPAL #1:
+* LEXEMA : 'i'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'limite'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 2
+  --------------------
+* LEXEMA : 'seguir'
+  ATRIBUTOS :
+  + tipo : 'logico'
+  + despl : 4
+  --------------------
+

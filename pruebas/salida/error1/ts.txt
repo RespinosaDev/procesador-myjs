@@ -1,0 +1,14 @@
+TABLA PRINCIPAL #1:
+* LEXEMA : 'a'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'b'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 2
+  --------------------
+* LEXEMA : 's'
+  (identificador usado sin declarar)
+

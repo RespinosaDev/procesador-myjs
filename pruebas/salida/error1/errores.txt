@@ -1,0 +1,6 @@
+Error léxico (línea 4): La constante entera 40000 supera el máximo permitido (32767)
+Error léxico (línea 5): La constante real '3.' debe tener al menos una cifra decimal
+Error sintáctico (línea 5): Se encontró ';' donde se esperaba una expresión (se admite: '!', '(', una cadena, una constante entera, un identificador, una constante real)
+Error léxico (línea 6): La cadena tiene 84 caracteres y el máximo es 64
+Error léxico (línea 7): El carácter '#' no pertenece al lenguaje
+Error léxico (línea 8): Cadena sin cerrar: falta la comilla doble final

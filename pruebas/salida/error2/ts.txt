@@ -1,0 +1,7 @@
+TABLA PRINCIPAL #1:
+* LEXEMA : 'x'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+

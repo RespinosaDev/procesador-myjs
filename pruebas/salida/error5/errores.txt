@@ -1,0 +1,10 @@
+Error semántico (línea 3): El identificador 'a' ya está declarado en este ámbito
+Error semántico (línea 12): La función 'nada' es void y no puede devolver un valor
+Error semántico (línea 17): La función 'sinValor' debe devolver un valor de tipo int
+Error semántico (línea 20): La función 'cuadrado' espera 1 argumento(s) y se le pasan 2
+Error semántico (línea 21): El argumento 1 de 'cuadrado' debe ser de tipo int y es de tipo float
+Error semántico (línea 22): La función 'nada' es void: no devuelve ningún valor y no puede usarse en una expresión
+Error semántico (línea 23): La función 'noExiste' no está declarada
+Error semántico (línea 24): 'cuadrado' es una función: para usarla hay que llamarla con paréntesis
+Error semántico (línea 25): 'a' es una variable de tipo int, no una función
+Error semántico (línea 26): La sentencia return solo puede usarse dentro de una función

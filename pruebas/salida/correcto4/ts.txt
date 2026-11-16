@@ -1,0 +1,51 @@
+TABLA DE LA FUNCION factorial #2:
+* LEXEMA : 'n'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'previo'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 2
+  --------------------
+
+TABLA DE LA FUNCION contar #3:
+* LEXEMA : 'global'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+
+TABLA PRINCIPAL #1:
+* LEXEMA : 'global'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'factorial'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam01 : 'entero'
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'Etfactorial01'
+  --------------------
+* LEXEMA : 'menosUno'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 2
+  --------------------
+* LEXEMA : 'contar'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etcontar02'
+  --------------------
+* LEXEMA : 'sinDeclarar'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 4
+  --------------------
+

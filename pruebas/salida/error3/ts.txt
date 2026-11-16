@@ -1,0 +1,17 @@
+TABLA DE LA FUNCION doble #2:
+* LEXEMA : 'n'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+
+TABLA PRINCIPAL #1:
+* LEXEMA : 'doble'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam01 : 'entero'
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'Etdoble01'
+  --------------------
+

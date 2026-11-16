@@ -1,0 +1,1 @@
+Error sintáctico (línea 4): Se encontró 'write' donde se esperaba un operador o el final de la expresión (se admite: ')', '+', ',', '/', ';', '<', '==')

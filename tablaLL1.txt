@@ -1,0 +1,51 @@
+CONJUNTOS FIRST Y FOLLOW
+========================
+P:	FIRST = [eof, function, id, if, let, read, return, while, write]	FOLLOW = []
+B:	FIRST = [id, if, let, read, return, while, write]	FOLLOW = [eof, function, id, if, let, read, return, while, write, }]
+I:	FIRST = [=, lambda]	FOLLOW = [;]
+T:	FIRST = [boolean, float, int, string]	FOLLOW = [id]
+S:	FIRST = [id, read, return, write]	FOLLOW = [eof, function, id, if, let, read, return, while, write, }]
+S2:	FIRST = [(, /=, =]	FOLLOW = [eof, function, id, if, let, read, return, while, write, }]
+X:	FIRST = [!, (, cadena, entero, id, lambda, real]	FOLLOW = [;]
+L:	FIRST = [!, (, cadena, entero, id, lambda, real]	FOLLOW = [)]
+Q:	FIRST = [,, lambda]	FOLLOW = [)]
+F:	FIRST = [function]	FOLLOW = [eof, function, id, if, let, read, return, while, write]
+H:	FIRST = [boolean, float, int, string, void]	FOLLOW = [id]
+A:	FIRST = [boolean, float, int, string, void]	FOLLOW = [)]
+K:	FIRST = [,, lambda]	FOLLOW = [)]
+C:	FIRST = [id, if, lambda, let, read, return, while, write]	FOLLOW = [}]
+E:	FIRST = [!, (, cadena, entero, id, real]	FOLLOW = [), ,, ;]
+E2:	FIRST = [<, ==, lambda]	FOLLOW = [), ,, ;]
+R:	FIRST = [!, (, cadena, entero, id, real]	FOLLOW = [), ,, ;, <, ==]
+R2:	FIRST = [+, lambda]	FOLLOW = [), ,, ;, <, ==]
+U:	FIRST = [!, (, cadena, entero, id, real]	FOLLOW = [), +, ,, ;, <, ==]
+U2:	FIRST = [/, lambda]	FOLLOW = [), +, ,, ;, <, ==]
+V:	FIRST = [!, (, cadena, entero, id, real]	FOLLOW = [), +, ,, /, ;, <, ==]
+V2:	FIRST = [(, lambda]	FOLLOW = [), +, ,, /, ;, <, ==]
+
+TABLA DE ANÁLISIS LL(1)  (M[no terminal, terminal] = número de regla)
+=====================================================================
+P:  eof→3  function→2  id→1  if→1  let→1  read→1  return→1  while→1  write→1
+B:  id→7  if→5  let→4  read→7  return→7  while→6  write→7
+I:  ;→9  =→8
+T:  boolean→12  float→11  int→10  string→13
+S:  id→14  read→16  return→17  write→15
+S2:  (→20  /=→19  =→18
+X:  !→21  (→21  ;→22  cadena→21  entero→21  id→21  real→21
+L:  !→23  (→23  )→24  cadena→23  entero→23  id→23  real→23
+Q:  )→26  ,→25
+F:  function→27
+H:  boolean→28  float→28  int→28  string→28  void→29
+A:  boolean→30  float→30  int→30  string→30  void→31
+K:  )→33  ,→32
+C:  id→34  if→34  let→34  read→34  return→34  while→34  write→34  }→35
+E:  !→36  (→36  cadena→36  entero→36  id→36  real→36
+E2:  )→39  ,→39  ;→39  <→37  ==→38
+R:  !→40  (→40  cadena→40  entero→40  id→40  real→40
+R2:  )→42  +→41  ,→42  ;→42  <→42  ==→42
+U:  !→43  (→43  cadena→43  entero→43  id→43  real→43
+U2:  )→45  +→45  ,→45  /→44  ;→45  <→45  ==→45
+V:  !→46  (→47  cadena→51  entero→49  id→48  real→50
+V2:  (→52  )→53  +→53  ,→53  /→53  ;→53  <→53  ==→53
+
+No hay ninguna celda con más de una regla: la gramática es LL(1).

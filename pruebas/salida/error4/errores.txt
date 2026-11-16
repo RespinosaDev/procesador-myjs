@@ -1,0 +1,8 @@
+Error semántico (línea 7): No se puede asignar un valor de tipo float a la variable 'n', que es de tipo int
+Error semántico (línea 8): El operador '+' requiere dos operandos int o dos float y se aplica a int y float
+Error semántico (línea 9): No se puede asignar un valor de tipo int a la variable 'ok', que es de tipo boolean
+Error semántico (línea 10): La condición de 'if' debe ser de tipo boolean y es de tipo int
+Error semántico (línea 11): El operador '<' compara dos int o dos float y se aplica a string y string
+Error semántico (línea 12): write solo puede mostrar valores int, float o string, no boolean
+Error semántico (línea 13): read solo puede leer variables int, float o string y 'ok' es de tipo boolean
+Error semántico (línea 14): El operador '/=' solo se aplica a variables int o float y 's' es de tipo string

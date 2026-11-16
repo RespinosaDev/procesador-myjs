@@ -1,0 +1,11 @@
+<LET,>
+<INT,>
+<ID,0>
+<PUNTOYCOMA,>
+<ID,0>
+<IGUAL,>
+<NUM,5>
+<WRITE,>
+<ID,0>
+<PUNTOYCOMA,>
+<EOF,>

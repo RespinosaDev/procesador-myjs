@@ -1,0 +1,59 @@
+//// Gramatica del lenguaje MyJS (analizador descendente LL(1))
+Terminales = { eof let id ; if ( ) while { } = int float boolean string write read return /= , function void < == + / ! entero real cadena }
+NoTerminales = { P B I T S S2 X L Q F H A K C E E2 R R2 U U2 V V2 }
+Axioma = P
+Producciones = {
+	P -> B P	//// 1
+	P -> F P	//// 2
+	P -> eof	//// 3
+	B -> let T id I ;	//// 4
+	B -> if ( E ) S	//// 5
+	B -> while ( E ) { C }	//// 6
+	B -> S	//// 7
+	I -> = E	//// 8
+	I -> lambda	//// 9
+	T -> int	//// 10
+	T -> float	//// 11
+	T -> boolean	//// 12
+	T -> string	//// 13
+	S -> id S2	//// 14
+	S -> write E ;	//// 15
+	S -> read id ;	//// 16
+	S -> return X ;	//// 17
+	S2 -> = E ;	//// 18
+	S2 -> /= E ;	//// 19
+	S2 -> ( L ) ;	//// 20
+	X -> E	//// 21
+	X -> lambda	//// 22
+	L -> E Q	//// 23
+	L -> lambda	//// 24
+	Q -> , E Q	//// 25
+	Q -> lambda	//// 26
+	F -> function H id ( A ) { C }	//// 27
+	H -> T	//// 28
+	H -> void	//// 29
+	A -> T id K	//// 30
+	A -> void	//// 31
+	K -> , T id K	//// 32
+	K -> lambda	//// 33
+	C -> B C	//// 34
+	C -> lambda	//// 35
+	E -> R E2	//// 36
+	E2 -> < R	//// 37
+	E2 -> == R	//// 38
+	E2 -> lambda	//// 39
+	R -> U R2	//// 40
+	R2 -> + U R2	//// 41
+	R2 -> lambda	//// 42
+	U -> V U2	//// 43
+	U2 -> / V U2	//// 44
+	U2 -> lambda	//// 45
+	V -> ! V	//// 46
+	V -> ( E )	//// 47
+	V -> id V2	//// 48
+	V -> entero	//// 49
+	V -> real	//// 50
+	V -> cadena	//// 51
+	V2 -> ( L )	//// 52
+	V2 -> lambda	//// 53
+}

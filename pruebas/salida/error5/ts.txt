@@ -1,0 +1,42 @@
+TABLA DE LA FUNCION cuadrado #2:
+* LEXEMA : 'x'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+
+TABLA DE LA FUNCION nada #3:
+
+TABLA DE LA FUNCION sinValor #4:
+
+TABLA PRINCIPAL #1:
+* LEXEMA : 'a'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'cuadrado'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam01 : 'entero'
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'Etcuadrado01'
+  --------------------
+* LEXEMA : 'nada'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etnada02'
+  --------------------
+* LEXEMA : 'sinValor'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'EtsinValor03'
+  --------------------
+* LEXEMA : 'noExiste'
+  (identificador usado sin declarar)
+

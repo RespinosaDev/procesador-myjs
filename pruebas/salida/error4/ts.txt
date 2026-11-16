@@ -1,0 +1,22 @@
+TABLA PRINCIPAL #1:
+* LEXEMA : 'n'
+  ATRIBUTOS :
+  + tipo : 'entero'
+  + despl : 0
+  --------------------
+* LEXEMA : 'f'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 2
+  --------------------
+* LEXEMA : 'ok'
+  ATRIBUTOS :
+  + tipo : 'logico'
+  + despl : 6
+  --------------------
+* LEXEMA : 's'
+  ATRIBUTOS :
+  + tipo : 'cadena'
+  + despl : 7
+  --------------------
+

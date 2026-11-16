@@ -1,0 +1,37 @@
+TABLA DE LA FUNCION mayorQueCero #2:
+* LEXEMA : 'valor'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 0
+  --------------------
+
+TABLA PRINCIPAL #1:
+* LEXEMA : 'a'
+  ATRIBUTOS :
+  + tipo : 'cadena'
+  + despl : 0
+  --------------------
+* LEXEMA : 'b'
+  ATRIBUTOS :
+  + tipo : 'cadena'
+  + despl : 64
+  --------------------
+* LEXEMA : 'iguales'
+  ATRIBUTOS :
+  + tipo : 'logico'
+  + despl : 128
+  --------------------
+* LEXEMA : 'r'
+  ATRIBUTOS :
+  + tipo : 'real'
+  + despl : 129
+  --------------------
+* LEXEMA : 'mayorQueCero'
+  ATRIBUTOS :
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam01 : 'real'
+  + TipoRetorno : 'logico'
+  + EtiqFuncion : 'EtmayorQueCero01'
+  --------------------
+
