@@ -1,10 +1,8 @@
 # Procesador de lenguaje MyJS · Analizador LL(1)
 
-Procesador para **MyJS** (PdL-JS), un subconjunto de JavaScript con tipos, escrito en **Java** sin herramientas generadoras. Hace el **análisis léxico, sintáctico y semántico** de un programa, mantiene la **tabla de símbolos** con ámbitos y produce los ficheros de tokens, parse, tabla de símbolos y errores en los formatos de la asignatura. El parse se puede visualizar como árbol con la herramienta VASt.
+Procesador para **MyJS** (PdL-JS), un subconjunto de JavaScript con tipos. Está escrito en **Java** a mano, sin usar herramientas que generen el analizador. Hace el **análisis léxico, sintáctico y semántico** de un programa, lleva la **tabla de símbolos** con sus ámbitos y genera los ficheros de tokens, parse, tabla de símbolos y errores en el formato que pedía la asignatura. El parse se puede ver como un árbol con la herramienta VASt.
 
-> 🎓 **Proyecto académico**: práctica de la asignatura *Procesadores de Lenguajes* (Grado en Ingeniería Informática)<br>
-> Universidad Politécnica de Madrid · Campus de Montegancedo<br>
-> 👥 Trabajo en grupo (3 personas)
+Es una práctica de la asignatura *Procesadores de Lenguajes* (Grado en Ingeniería Informática, Universidad Politécnica de Madrid). La hicimos en un grupo de 3 personas.
 
 ---
 
@@ -100,4 +98,4 @@ java -jar junit-platform-console-standalone.jar execute -cp build/classes:build/
 
 ## Sobre esta versión
 
-El código de la entrega final se perdió. Este repositorio lo **reconstruye** a partir de la primera versión del analizador léxico, de la memoria de diseño del grupo (tokens, autómata y acciones semánticas) y de la documentación de la asignatura sobre formatos y análisis LL. Incluye además las correcciones que hizo el profesor a la primera entrega: los reales deben tener parte decimal, su valor se calcula correctamente y la tabla de símbolos solo la rellena el léxico con lo que le corresponde.
+El código de la entrega final se nos perdió, así que este repositorio lo **reconstruye** a partir de la primera versión del analizador léxico, de la memoria de diseño del grupo (tokens, autómata y acciones semánticas) y de la documentación de la asignatura sobre formatos y análisis LL. Incluye además las correcciones que hizo el profesor a la primera entrega: los reales deben tener parte decimal, su valor se calcula correctamente y la tabla de símbolos solo la rellena el léxico con lo que le corresponde.
